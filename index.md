@@ -26,17 +26,28 @@ These lessons will start you on a path towards using these resources effectively
 
 > ## Getting ready {.getready}
 >
-> You need to download some files to follow this lesson:
-> 
-> 1. Download [shell-novice-data.zip](./shell-novice-data.zip) and move the file to your Desktop.
-> 2. Unzip/extract the file (ask your instructor if you need help with this step). You should end up with a new folder called data-shell on your Desktop.
-> 3. Open a terminal and type:
+> For this lesson we will be using the shell on the SHARCNET supercomputer
+> `angel.sharcnet.ca`.  To connect you will need a secure shell (SSH)
+> program.  Both MacOSX and Linux come with SSH.  For these systems open
+> up a terminal and ssh to `angel.sharcnet.ca` using your assigned
+> `labXX` account (where *XX* is the lab number you were assigned).
 >
 > ~~~ {.input}
-> $ cd
+> $ ssh labXX@angel.sharcnet.ca
 > ~~~
 >
-> In the lesson, you will find out how to access the data in this folder.  
+> For windows you have to first download a SSH program
+>
+> 1. [MobaXterm](http://mobaxterm.mobatek.net/download.html) or
+> 2. [Putty](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html)
+>    and [WinSCP](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html).
+>
+> Then open it up and enter `angel.sharcnet.ca` as the host to connect
+> to, `labXX` as the username, and press `Connect`.
+>
+> In the following lessons `/User/nelle` (the location of our
+> fictitious user Nello Nemo's home directory) with `/home/labXX` (the
+> location of your assigned lab account's home directory).
 
 
 ## Topics
